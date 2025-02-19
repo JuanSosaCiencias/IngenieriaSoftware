@@ -3,9 +3,9 @@
 
 # Impulsa Tu Futuro  
 
-## Introducción  
+## Descripción   
 
-Durante la tercera década del siglo XXI, en un mundo globalizado y en constante evolución, la competencia en el ámbito académico y profesional es más intensa que nunca. Para los estudiantes de educación media superior y superior, contar con herramientas adecuadas que les permitan acceder a oportunidades de desarrollo se ha vuelto esencial. Sin embargo, muchas de estas oportunidades —como becas de maestría y doctorado, estancias de investigación, cursos de habilidades duras y blandas, bootcamps, hackatones y concursos— suelen estar dispersas en distintos canales, dificultando su acceso y aprovechamiento.  
+Aplicación web para estudiantes de niveles medio superior y superior que facilita el acceso y la compartición de oportunidades académicas y profesionales, como; becas, estancias de investigación, cursos, bootcamps y hackathons.
 
 ## Problemática  
 
@@ -27,8 +27,3 @@ Asimismo, además de las cuentas de estudiantes, se implementarán **cuentas ded
 
 Se incorporarán también **características enfocadas en el aspecto social**, como la posibilidad de agregar amigos y la creación de organizaciones que permitan a los estudiantes formar grupos de estudio en sus áreas de interés.  
 
-## Conclusión  
-
-Impulsa Tu Futuro no solo facilitará el acceso a oportunidades de crecimiento académico y profesional, sino que también fomentará la colaboración entre estudiantes, universidades y organizaciones. Con una interfaz intuitiva, un sistema de recomendaciones personalizadas y un enfoque en la seguridad de la información, la plataforma buscará convertirse en una herramienta indispensable para quienes desean fortalecer su trayectoria educativa y profesional.  
-
-A futuro, el proyecto podrá expandirse con funciones adicionales, como la integración de eventos en vivo, mentorías y conexiones con profesionales de diversas industrias, consolidándose así como un ecosistema de apoyo integral para el desarrollo estudiantil.  
