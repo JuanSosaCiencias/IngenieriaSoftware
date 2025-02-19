@@ -31,7 +31,7 @@ En esta sección los usuarios podrán escribir sus experiencias, grados de estud
 áreas de interés. Los datos de contacto cuentan con un parámetro de visibilidad que le permite al usuario la posibilidad de manejar la privacidad de sus datos.
 
 * Curriculum
-* 
+
 Se muestra el perfil de los usuarios, en el se encuentra un botón para poder hacer amigos con otras personas.
 
 * Becas guardadas
