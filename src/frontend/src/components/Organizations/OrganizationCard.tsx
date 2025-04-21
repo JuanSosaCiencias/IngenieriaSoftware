@@ -25,7 +25,7 @@ import { Link } from 'react-router-dom';
 import { Organization } from '../../models/organization';
 import { GlobeIcon, LocationMarkerIcon } from '@heroicons/react/outline';
 
-const penrose = "penrose.png";
+const penrose = "../../../public/default-logo.svg"; 
 
 interface Organization2 {
   item: Organization;
@@ -56,7 +56,7 @@ const OrganizationCard: React.FC<Organization2> = ({ item }) => {
           {/* Image section */}
           <div className='h-48 relative overflow-hidden'>
             <img
-              src={item.logo ? item.logo : penrose}
+              src={item.logo && item.logo.trim() !== '' ? item.logo : penrose}
               alt={`Imagen de ${item.name}`}
               className="w-full h-full object-cover"
               role="img"
