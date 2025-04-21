@@ -24,12 +24,13 @@ import { usePopUp } from "../../contexts/PopUpContext";
 import RegisterOrganizationForm from "./RegisterOrganization";
 import { Organization } from "../../models/organization";
 import { useAuth } from "../../contexts/AuthContext";
+import { PlusIcon } from "@heroicons/react/outline";
 
 interface AddOrganizationButtonProps {
   onUpdate: (newOrg: Organization) => void;
 }
 
-export function AddOrganizationButton({ onUpdate }: AddOrganizationButtonProps) {
+const AddOrganizationButton: React.FC<AddOrganizationButtonProps> = ({ onUpdate }) => {
   const popUpContext = usePopUp();
   const { isAuthenticated } = useAuth();
 
@@ -39,21 +40,26 @@ export function AddOrganizationButton({ onUpdate }: AddOrganizationButtonProps) 
   }
 
   return (
-    <div className="text-center mt-10 mb-16">
+    <div className="flex justify-center mt-8 mb-12">
       <button
-        onClick={() => {
-          if (isAuthenticated) {
-            openPopUp();
-          }
-        }}
+        onClick={openPopUp}
         disabled={!isAuthenticated}
-        className={`text-blue-600 font-medium px-6 py-2 rounded-full border border-blue-600 hover:bg-blue-50 transition ${
-          !isAuthenticated ? "cursor-not-allowed opacity-50" : ""
-        }`}
+        className={`
+          flex items-center justify-center
+          px-6 py-3 rounded-full font-medium shadow-md
+          text-white
+          ${isAuthenticated
+            ? 'bg-blue-600 hover:bg-blue-700 dark:bg-blue-700 dark:hover:bg-blue-800'
+            : 'bg-gray-400 cursor-not-allowed'}
+          transition duration-200 transform hover:-translate-y-1
+          focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50
+        `}
       >
+        <PlusIcon className="h-5 w-5 mr-2" />
         Crear Organización
       </button>
     </div>
   );
-}
+};
 
+export default AddOrganizationButton;
