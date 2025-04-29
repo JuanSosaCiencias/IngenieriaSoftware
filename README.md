@@ -22,3 +22,5 @@ docker compose up
 Para ver el backend, abre tu navegador y navega a [http://localhost:8000/](http://localhost:8000/).
 
 Para ver el frontend, abre tu navegador y navega a [http://localhost:3000/](http://localhost:3000/).
+
+[![wakatime](https://wakatime.com/badge/github/arielmerinos/IngenieriaSoftware.svg)](https://wakatime.com/badge/github/arielmerinos/IngenieriaSoftware)
